@@ -1,0 +1,12 @@
+{
+  "SourceFolders": [
+    "D:/_Music"
+  ],
+  "UseConsole": true,
+  "Debug": true,
+  "SkipSongsShorterThan": 60,
+  "SkipSongsLongerThan": 300,
+  "UseSongRequestServer": true,
+  "SongServerHost": "127.0.0.1",
+  "SongServerPort": 6969
+}
