@@ -169,7 +169,7 @@ public class MusicServer
 
 
             var songListJson = MusicServer._musicManager.SongSources.ToJsonString();
-            Logger.Debug("<SongList>{\"Songs\":[" + songListJson.Replace("\\", "\\\\") + "}]}");
+            Logger.Debug("<SongList>{\"Songs\":[" + songListJson.Replace("\\", "\\\\") + "} ]}");
             WriteAsync("<SongList>{\"Songs\":[" + songListJson.Replace("\\", "\\\\") + "}]}");
         }
         
